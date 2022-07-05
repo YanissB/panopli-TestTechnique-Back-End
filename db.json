@@ -9,10 +9,7 @@
         "length": 2,
         "width": 2
       },
-      "color": [
-        "green",
-        "purple"
-      ],
+      "colors": "green",
       "img": {
         "img1": "https://nintendowire.com/wp-content/uploads/2021/11/animal_crossing_new_horizons_green_froggy_chair.jpg",
         "img2": "https://nintendowire.com/wp-content/uploads/2021/11/Banner-Animal-Crossing-New-Horizons-Froggy-Chairs.jpg"
@@ -27,9 +24,7 @@
         "length": 4,
         "width": 4
       },
-      "color": [
-        "yellow"
-      ],
+      "colors": "yellow",
       "img": {
         "img1": "https://nintendowire.com/wp-content/uploads/2021/11/animal_crossing_new_horizons_green_froggy_chair.jpg",
         "img2": "https://static2.thegamerimages.com/wordpress/wp-content/uploads/2020/04/ACNH-bell-bag-rug.jpg"
@@ -44,10 +39,7 @@
         "length": 4,
         "width": 4
       },
-      "color": [
-        "red",
-        "blue"
-      ],
+      "color": "red",
       "img": {
         "img1": "https://nintendowire.com/wp-content/uploads/2021/11/animal_crossing_new_horizons_green_froggy_chair.jpg",
         "img2": "https://static2.thegamerimages.com/wordpress/wp-content/uploads/2020/04/ACNH-bell-bag-rug.jpg"
