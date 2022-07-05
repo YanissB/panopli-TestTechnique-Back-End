@@ -1,0 +1,57 @@
+{
+  "furnitures": [
+    {
+      "id": 1,
+      "name": "froggy chair",
+      "quantity": 1,
+      "dimensions": {
+        "height": 2,
+        "length": 2,
+        "width": 2
+      },
+      "color": [
+        "green",
+        "purple"
+      ],
+      "img": {
+        "img1": "https://nintendowire.com/wp-content/uploads/2021/11/animal_crossing_new_horizons_green_froggy_chair.jpg",
+        "img2": "https://nintendowire.com/wp-content/uploads/2021/11/Banner-Animal-Crossing-New-Horizons-Froggy-Chairs.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "bell-bag rug",
+      "quantity": 2,
+      "dimensions": {
+        "height": 1,
+        "length": 4,
+        "width": 4
+      },
+      "color": [
+        "yellow"
+      ],
+      "img": {
+        "img1": "https://nintendowire.com/wp-content/uploads/2021/11/animal_crossing_new_horizons_green_froggy_chair.jpg",
+        "img2": "https://static2.thegamerimages.com/wordpress/wp-content/uploads/2020/04/ACNH-bell-bag-rug.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "name": "bell-bag rug",
+      "quantity": 0,
+      "dimensions": {
+        "height": 1,
+        "length": 4,
+        "width": 4
+      },
+      "color": [
+        "red",
+        "blue"
+      ],
+      "img": {
+        "img1": "https://nintendowire.com/wp-content/uploads/2021/11/animal_crossing_new_horizons_green_froggy_chair.jpg",
+        "img2": "https://static2.thegamerimages.com/wordpress/wp-content/uploads/2020/04/ACNH-bell-bag-rug.jpg"
+      }
+    }
+  ]
+}
