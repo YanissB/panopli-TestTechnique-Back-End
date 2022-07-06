@@ -1,18 +1,23 @@
 const fs = require("fs");
+const db = require("./db.json");
 
 exports.getAllFurnitures = (req, res) => {
-  fs.readFile("db.json", "utf8", function (err, data) {
-    if (err) throw err;
-
-    let parsedData = JSON.parse(data);
-    res.send(parsedData.furnitures);
-  });
+  res.send(db.furnitures);
 };
 
 exports.getFurnituresByColor = (req, res) => {
-  fs.readFile("db.json", "utf8", function (err, data) {
-    if (err) throw err;
-    let parsedData = JSON.parse(data);
-    res.send(parsedData.furnitures[0].color);
-  });
+  let colors = req.params.colors;
+  const dbFurnitures = db.furnitures;
+  result = [];
+
+  for (let i = 0; i < dbFurnitures.length; i++) {
+    let dbFurnituresColorsLen = Object.keys(dbFurnitures[i].colors).length;
+    for (let j = 0; j < dbFurnituresColorsLen; j++) {
+      if (db.furnitures[i].colors[j] === colors) {
+        result.push(db.furnitures[i]);
+      }
+    }
+  }
+
+  res.send(result);
 };

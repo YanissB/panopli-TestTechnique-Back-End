@@ -6,6 +6,6 @@ const control = require("./controllers.js");
 router.use(cors());
 
 router.get("/furnitures", control.getAllFurnitures);
-router.get("furnitures/color", control.getFurnituresByColor);
+router.get("/furnitures/:colors", control.getFurnituresByColor);
 
 module.exports = router;
