@@ -8,7 +8,9 @@ router.use(cors());
 router.get("/furnitures", control.getAllFurnitures);
 router.get("/furnitures/colors/:colors", control.getFurnituresByColor);
 router.get("/furnitures/quantity/:quantity", control.getFurnituresByQuantity);
-
-// router.patch("/furnitures/:id"), control.patchFurnitureQuantity;
+router.get(
+  "/furnitures/dimensions/:dimensions",
+  control.getFurnituresByDimensions
+);
 
 module.exports = router;
