@@ -32,13 +32,13 @@
         "black"
       ],
       "img": {
-        "img1": "https://nintendowire.com/wp-content/uploads/2021/11/animal_crossing_new_horizons_green_froggy_chair.jpg",
-        "img2": "https://static2.thegamerimages.com/wordpress/wp-content/uploads/2020/04/ACNH-bell-bag-rug.jpg"
+        "img1": "https://i.etsystatic.com/30766982/r/il/2ac4da/3621327032/il_794xN.3621327032_gupr.jpg",
+        "img2": "https://cdn.vox-cdn.com/thumbor/9OJda5G09yOWOmivJTbYOLHCNTA=/0x0:1800x1013/920x613/filters:focal(728x382:1016x670):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66693374/bellbag.0.jpeg"
       }
     },
     {
       "id": 3,
-      "name": "bell-bag rug",
+      "name": "golden toilet",
       "quantity": 0,
       "dimensions": {
         "height": 1,
@@ -46,14 +46,16 @@
         "width": 4
       },
       "colors": [
-        "red",
-        "blue"],
+        "gold",
+        "rosé"],
       "img": {
-        "img1": "https://nintendowire.com/wp-content/uploads/2021/11/animal_crossing_new_horizons_green_froggy_chair.jpg",
-        "img2": "https://static2.thegamerimages.com/wordpress/wp-content/uploads/2020/04/ACNH-bell-bag-rug.jpg"
+        "img1": "https://gamewith-en.akamaized.net/article_tools/animal-crossing-new-horizons/gacha/Golden%20toilet.png",
+        "img2": "https://static.wikia.nocookie.net/animalcrossing/images/d/d4/NH-Furniture-Golden_toilet.png/revision/latest?cb=20200329093220"
       }
     }
   ],
   "Cart": [
+  ],
+  "Command": [
   ]
 }

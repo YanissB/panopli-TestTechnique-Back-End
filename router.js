@@ -13,4 +13,9 @@ router.get(
   control.getFurnituresByDimensions
 );
 
+// POST Cart
+// DELETE Cart
+
+// POST COMMAND
+
 module.exports = router;
