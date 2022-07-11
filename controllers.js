@@ -1,6 +1,8 @@
 const fs = require("fs");
 const db = require("./db.json");
 
+// Furnitures Controllers
+
 exports.getAllFurnitures = (req, res) => {
   res.send(db.furnitures);
 };
